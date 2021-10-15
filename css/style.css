@@ -1,0 +1,140 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+:root{
+    --primary1: hsl(180, 66%, 49%);
+    --primary2: hsl(257, 27%, 26%);
+    --secondary: hsl(0, 87%, 67%);
+    --gray: hsl(0, 0%, 75%);
+    --grayish-violet: hsl(257, 7%, 63%);
+    --very-dark-blue: hsl(255, 11%, 22%);
+    --very-dark-violet: hsl(260, 8%, 14%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+li {
+    list-style: none;
+}
+main{
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    color: var(--very-dark-violet);
+}
+.menu {
+    cursor: pointer;
+    font-size: x-large;
+    color: var(--grayish-violet);
+}
+.close {
+    display: none;
+    font-size: x-large;
+}
+.nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.show-nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.main-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 1rem 2rem 1rem;
+}
+.main-1-text h1 {
+    color: var(--very-dark-violet);
+}
+.main-1-text .build {
+    color: var(--grayish-violet);
+}
+.main-1-text .get-started {
+    color: #fff;
+    background: var(--primary1);
+    border-radius: 2rem;
+    margin: 2rem 0 3rem 0;
+    width: 50%;
+    padding: 8px 0 8px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.main-2-shorten {
+    display: flex;
+    flex-direction: column;
+    background: url('/images/bg-shorten-mobile.svg') no-repeat;
+    background-color: var(--primary2);
+    width: 84%;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 12px;
+}
+.main-2-shorten input {
+    padding: 10px 0 10px 10px;
+    border-radius: 4px;
+    border: 1px #fff;
+    width: 84%;
+    margin-bottom: 12px;
+}
+.main-2-shorten span {
+    padding: 10px 0 10px 10px;
+    border-radius: 4px;
+    width: 84%;
+    background: var(--primary1);
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-2-advanced {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 9px;
+}
+.main-2-advanced h1 {
+    padding: 0 4px 0 4px;
+}
+.main-2-advanced span {
+    color: var(--grayish-violet);
+}
