@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
@@ -17,9 +18,13 @@
 </head>
 <body>
   <header>
-    <div class="logo"></div>
-    <nav>
-      <ul>
+    <div class="logo">
+      <h1>Shortly</h1>
+      <i class="fas fa-bars menu"></i>
+      <i class="fa-solid fa-xmark close"></i>
+    </div>
+    <nav class="" role="navigation">
+      <ul class="nav-menu">
         <li>Features</li>
         <li>Pricing</li>
         <li>Resources</li>
@@ -30,50 +35,73 @@
   </header>
   
   <main>
-    <div>
-      More than just shorter links
-    
-      Build your brand’s recognition and get detailed insights 
-      on how your links are performing.
-    
-      Get Started
-    </div>
-    <div>
-      Shorten a link here...
-  
-      Shorten It!
-    </div>
-    <div>
-      Advanced Statistics
-    
-      Track how your links are performing across the web with our 
-      advanced statistics dashboard.
-    </div>
-    <div class="cards">
-      <div>
-        Brand Recognition
-      
-        Boost your brand recognition with each click. Generic links don’t 
-        mean a thing. Branded links help instil confidence in your content.
+    <section class="main-1">
+      <img src="/images/illustration-working.svg" alt="">
+      <div class="main-1-text">
+        <h1>More than just <br> shorter links</h1>
+        <span class="build">
+          Build your brand’s recognition and <br>
+          get detailed insights on how your <br>
+          links are performing.
+        </span>
+        <span class="get-started">Get Started</span>
+
+      </div>    
+    </section>
+    <section class="main-2">
+      <div class="main-2-shorten">
+        <input placeholder="Shorten a link here..."></input>
+        <span>Shorten It!</span>
       </div>
-      <div>
-        Detailed Records
-      
-        Gain insights into who is clicking your links. Knowing when and where 
-        people engage with your content helps inform better decisions.
+      <div class="main-2-advanced">
+        <h1>Advanced Statistics</h1>
+        <span>
+          Track how your links are performing across the web with our 
+          advanced statistics dashboard.
+        </span>
       </div>
-      <div>
-        Fully Customizable
-      
-        Improve brand awareness and content discoverability through customizable 
-        links, supercharging audience engagement.
-      </div>
-    </div>  
+
+      <div class="cards">
+        <div>
+          <img src="" alt="">
+          <h1>Brand Recognition</h1>
+          <span>
+            Boost your brand recognition with <br>
+            each click. Generic links don’t <br>
+            mean a thing. Branded links help <br>
+            instil confidence in your content.
+          </span>
+        </div>
+
+        <div>
+          <img src="" alt="">
+          <h1>Detailed Records</h1>
+          <span>
+            Gain insights into who is clicking <br>
+            your links. Knowing when and <br>
+            where people engage with your <br>
+            content helps inform better <br>
+            decisions.
+          </span>
+        </div>
+
+        <div>
+          <img src="" alt="">
+          <h1>Fully Customizable</h1>
+          <span>
+            Improve brand awareness and <br>
+            content discoverability through <br>
+            customizable links, supercharging <br>
+            audience engagement.
+          </span>
+        </div>
+      </div>  
+    </section>
   </main>
 
   <footer>
     <section class="info">
-      <span><h2>Boost your links today</h2></span>
+      <h2>Boost your links today</h2>
       <span>Get Started</span>
     </section>
     
@@ -111,5 +139,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Osae</a>.
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
