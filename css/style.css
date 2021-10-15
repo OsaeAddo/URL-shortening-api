@@ -129,7 +129,7 @@ main{
 .main-2-advanced {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
     padding: 9px;
 }
 .main-2-advanced h1 {
