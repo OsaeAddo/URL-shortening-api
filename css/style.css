@@ -138,3 +138,35 @@ main{
 .main-2-advanced span {
     color: var(--grayish-violet);
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 5rem;
+}
+.card-img-container {
+    background: var(--primary2);
+    border-radius: 100%;
+    padding: 12px 15px;
+    position: relative;
+    top: -30px;
+}
+.card-img-container img{
+    width: 2rem;
+}
+.card-container h1, .card-container span {
+    padding: 0 1rem 2rem 1rem;
+}
+.card-container span {
+    color: var(--grayish-violet);
+}
