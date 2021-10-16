@@ -55,6 +55,11 @@ main{
 }
 .show-nav-menu {
     display: flex;
+    background: var(--primary2);
+    color: #fff;
+    border-radius: 8px;
+    margin: 16px 12px;
+    padding: 2rem 1rem;
 }
 
 .nav-menu li {
