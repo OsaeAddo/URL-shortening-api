@@ -106,7 +106,7 @@ main{
     width: 84%;
     text-align: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     margin-bottom: 3rem;
     border-radius: 12px;
 }
