@@ -180,11 +180,24 @@ footer {
 }
 footer h2 {
     color: #fff;
-    font-size: large;
+    font-size: small;
     text-align: center;
 }
-footer ul li {
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: var(--gray);
+    font-size: 15px;
+    padding-right: 2rem;
+}
+footer ul li {
+    padding-bottom: 8px;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 .features .logo-footer {
