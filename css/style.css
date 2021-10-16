@@ -16,6 +16,8 @@ body{
     font-size: 18px;
     font-weight: 500;
     background: whitesmoke;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -86,9 +88,8 @@ main{
     color: #fff;
     background: var(--primary1);
     border-radius: 2rem;
-    margin: 2rem 0 3rem 0;
     width: 50%;
-    padding: 8px 0 8px 0;
+    padding: 8px 0;
     font-weight: 600;
     text-align: center;
 }
