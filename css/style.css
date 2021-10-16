@@ -186,7 +186,14 @@ footer h2 {
 footer ul li {
     color: var(--gray);
     text-align: center;
-    font-size: 1rem;
+}
+.features .logo-footer {
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+.logo-footer img {
+    color: white;
 }
 .info {
     display: flex;
