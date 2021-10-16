@@ -101,8 +101,7 @@ main{
 .main-2-shorten {
     display: flex;
     flex-direction: column;
-    background: url('/images/bg-shorten-mobile.svg') no-repeat;
-    background-color: var(--primary2);
+    background: var(--primary2) url('/images/bg-shorten-mobile.svg') top right no-repeat;
     width: 84%;
     text-align: center;
     align-items: center;
