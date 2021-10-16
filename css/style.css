@@ -200,4 +200,11 @@ footer ul li {
 .info h2 {
     font-size: larger;
 }
-
+.icons-footer {
+    padding: 2rem 0 2rem 0;
+}
+.icons-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
