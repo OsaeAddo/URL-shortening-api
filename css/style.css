@@ -80,6 +80,9 @@ main{
     color: var(--grayish-violet);
 }
 .main-1-text .get-started {
+    margin: 2rem 0 3rem 0;
+}
+.main-1-text .get-started, .info .get-started {
     color: #fff;
     background: var(--primary1);
     border-radius: 2rem;
