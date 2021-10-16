@@ -170,3 +170,31 @@ main{
 .card-container span {
     color: var(--grayish-violet);
 }
+
+/* Footer section */
+footer {
+    background-color: var(--very-dark-violet);
+}
+footer h2 {
+    color: #fff;
+    font-size: large;
+    text-align: center;
+}
+footer ul li {
+    color: var(--gray);
+    text-align: center;
+    font-size: 1rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--primary2) url('/images/bg-boost-mobile.svg') center;
+    padding: 4rem 1rem;
+    color: #fff;
+}
+.info h2 {
+    font-size: larger;
+}
+
