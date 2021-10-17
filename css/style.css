@@ -194,6 +194,10 @@ footer h2 {
     font-size: small;
     text-align: center;
 }
+footer .others {
+    display: flex;
+    flex-direction: column;
+}
 footer ul {
     display: flex;
     flex-direction: column;
