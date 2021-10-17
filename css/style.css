@@ -235,6 +235,7 @@ footer ul li {
 .info h2 {
     font-size: larger;
 }
+/* Footer icons section */
 .icons-footer {
     padding: 2rem 0 2rem 0;
 }
@@ -244,6 +245,7 @@ footer ul li {
     justify-content: space-evenly;
 }
 
+/* Larger Displays */
 @media(min-width: 810px){
     header {
         display: flex;
