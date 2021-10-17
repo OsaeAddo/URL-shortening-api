@@ -293,4 +293,18 @@ footer ul li {
         align-items: start;
         padding-left: 4.4rem;
     }
+    .info .get-started {
+        width: 20%;
+    }
+    .others {
+        flex-direction: row !important;
+        padding: 1rem;
+    }
+    .icons-footer ul li{
+        padding: 0 8px;
+    }
+}
+
+@media(min-width: 1024px){
+
 }
