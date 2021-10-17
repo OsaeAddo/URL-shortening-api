@@ -38,7 +38,7 @@ main{
     padding: 0 1rem;
     color: var(--very-dark-violet);
 }
-.menu {
+.menu-btn {
     cursor: pointer;
     font-size: x-large;
     color: var(--grayish-violet);
