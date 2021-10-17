@@ -43,10 +43,7 @@ main{
     font-size: x-large;
     color: var(--grayish-violet);
 }
-.close {
-    display: none;
-    font-size: x-large;
-}
+
 .nav-menu {
     display: none;
     flex-direction: column;
