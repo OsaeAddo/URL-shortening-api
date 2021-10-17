@@ -272,6 +272,14 @@ footer ul li {
         margin-bottom: 13px;
         color: #fff !important;
     }
+
+    /* Main section */
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+        width: 95%;
+    }
     .main-1 {
         flex-direction: row-reverse;
         justify-content: space-between;
