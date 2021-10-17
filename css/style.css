@@ -241,3 +241,38 @@ footer ul li {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+@media(min-width: 810px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 1rem;
+        font-size: small;
+    }
+    .nav-menu li {
+        padding-right: 12px;
+        color: var(--grayish-violet);
+
+    }
+    .signup {
+        padding: 5px !important;
+        font-weight: bold !important;
+        margin-bottom: 13px;
+        color: #fff !important;
+    }
+    .main-1 {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
