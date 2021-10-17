@@ -285,4 +285,13 @@ footer ul li {
         justify-content: space-between;
         align-items: center;
     }
+    .main-1 img {
+        width: 50%;
+    }
+    .main-1-text {
+        width: 50%;
+        text-align: start;
+        align-items: start;
+        padding-left: 4.4rem;
+    }
 }
