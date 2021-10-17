@@ -282,7 +282,6 @@ footer ul li {
     }
     .main-1 {
         flex-direction: row-reverse;
-        justify-content: space-between;
         align-items: center;
     }
     .main-1 img {
