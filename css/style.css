@@ -131,13 +131,14 @@ main{
     width: 84%;
     margin-bottom: 12px;
 }
-.main-2-shorten span {
+.main-2-shorten button {
     padding: 10px 0 10px 10px;
     border-radius: 4px;
     width: 84%;
     background: var(--primary1);
     color: #fff;
     font-weight: 600;
+    border: none;
 }
 
 .main-2-advanced {
