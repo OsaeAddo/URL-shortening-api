@@ -1,6 +1,11 @@
+// Nav related
 const menu = document.querySelector('.menu-btn')
 const close = document.querySelector('.close')
 const navMenu = document.querySelector('.nav-menu')
+
+
+// Url Input
+const urlInput = document.getElementById('url-input')
 
 function toggleNav() {
     navMenu.classList.toggle('show-nav-menu');
