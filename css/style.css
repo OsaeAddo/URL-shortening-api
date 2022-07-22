@@ -309,15 +309,92 @@ footer ul li {
         align-items: start;
         padding-left: 4.4rem;
     }
+    .main-1-text h1 {
+        font-size: 54px;
+        margin-bottom: 8px;
+    }
+    .main-1-text .build {
+        width: 92%;
+    }
+    .build br {
+        display: none;
+    }
+    .main-1-text .get-started, .info .get-started {
+        width: 30%;
+        font-size: 17px;
+    }
+
+    /* Main-2 section */
+    .main-2 {
+        margin-bottom: 5rem;
+    }
+    .main-2-shorten {
+        flex-direction: row;
+        align-items: center;
+        padding: 1.8rem 1rem;
+    }
+    .main-2-shorten input {
+        margin-bottom: 0;
+        margin: 0 26px;
+        width: 70%;
+    }
+    .main-2-shorten button {
+        width: 26%;
+        margin-right: 31px;
+    }
+
+    .cards {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .cards .card1::after, 
+    .cards .card2::after {
+        right: -32px;
+        height: 8px;
+        width: 33px;
+        top: 49%;
+    }
+    .card2 {
+        bottom: -50px;
+    }
+    .cards .card2::after {
+        top: 33%;
+    }
+    .card3 {
+        bottom: -80px;
+    }
+    .card-img-container {
+        left: -32%;
+    }
+
+    /* Footer section */
+    .info {
+        background-image: url(../images/bg-boost-desktop.svg);
+    }
     .info .get-started {
         width: 20%;
     }
     .others {
         flex-direction: row !important;
         padding: 1rem;
+        justify-content: space-around;
+        align-items: start;
     }
     .icons-footer ul li{
         padding: 0 8px;
+    }
+    .resources,
+    .company {
+        display: grid;
+    }
+    .icons-footer {
+        padding-top: 0;
+    }
+    .logo-footer {
+        padding-top: 0;
+    }
+    .logo-footer > h1 {
+        margin-top: 0;
     }
 }
 
