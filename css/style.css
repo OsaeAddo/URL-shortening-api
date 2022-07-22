@@ -185,6 +185,16 @@ main{
 .card-container span {
     color: var(--grayish-violet);
 }
+.cards .card1::after,
+.cards .card2::after {
+    background-color: var(--primary1);
+    position: absolute;
+    bottom: -54px;
+    content: '';
+    width: 8px;
+    height: 54px;
+    z-index: 0;
+}
 
 /* Footer section */
 footer {
@@ -198,6 +208,9 @@ footer h2 {
 footer .others {
     display: flex;
     flex-direction: column;
+}
+footer .others h2 {
+    font-size: 20px;
 }
 footer ul {
     display: flex;
