@@ -315,6 +315,16 @@ footer ul li {
     .login-signup {
         display: flex;
         align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+        gap: 12px;
+    }
+    .login-signup .signup2 {
+        background-color: var(--primary1);
+        padding: 4px 16px;
+        color: #fff;
+        border-radius: 11px;
+        
     }
     .menu-btn {
         display: none;
@@ -325,6 +335,8 @@ footer ul li {
         align-items: center;
         padding-top: 1rem;
         font-size: small;
+        position: relative;
+        left: -100%;
     }
     .nav-menu li {
         padding-right: 12px;
