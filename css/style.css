@@ -112,6 +112,7 @@ header {
 }
 .main-1-text .build {
     color: var(--grayish-violet);
+    font-weight: 600;
 }
 .main-1-text .get-started {
     margin: 2rem 0 3rem 0;
@@ -121,8 +122,9 @@ header {
     background: var(--primary1);
     border-radius: 2rem;
     width: 50%;
-    padding: 8px 0;
+    padding: 12px 0;
     font-weight: 600;
+    font-size: 21px;
     text-align: center;
 }
 
@@ -146,7 +148,7 @@ header {
     border-radius: 12px;
 }
 .main-2-shorten input {
-    padding: 10px 0 10px 10px;
+    padding: 16px 0 16px 14px;
     border-radius: 4px;
     border: 1px #fff;
     width: 84%;
@@ -157,12 +159,13 @@ header {
     color: var(--grayish-violet);
 }
 .main-2-shorten button {
-    padding: 10px 0 10px 10px;
+    padding: 14px;
     border-radius: 4px;
-    width: 84%;
+    width: 87%;
     background: var(--primary1);
     color: #fff;
     font-weight: 600;
+    font-size: 18px;
     border: none;
 }
 
@@ -184,6 +187,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .card-container {
     display: flex;
@@ -193,6 +197,7 @@ header {
     background: #fff;
     border-radius: 12px;
     margin-bottom: 5rem;
+    position: relative;
 }
 .card-img-container {
     background: var(--primary2);
@@ -362,10 +367,10 @@ footer ul li {
         align-items: center;
     }
     .main-1 img {
-        width: 50%;
+        width: 45%;
     }
     .main-1-text {
-        width: 50%;
+        width: 55%;
         text-align: start;
         align-items: start;
         padding-left: 4.4rem;
