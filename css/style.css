@@ -234,6 +234,10 @@ footer ul li {
     text-align: center;
     padding: 2rem 0 2rem 0;
 }
+.logo-footer > h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
 .logo-footer img {
     color: white;
 }
