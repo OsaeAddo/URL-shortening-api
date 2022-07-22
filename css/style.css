@@ -30,7 +30,14 @@ li {
 main{
     padding: 0;
 }
-
+button:hover,
+a:hover {
+    cursor: pointer;
+}
+/* Header/Nav section */
+header {
+    position: relative;
+}
 .logo{
     display: flex;
     justify-content: space-between;
@@ -88,6 +95,8 @@ main{
 }
 .main-1-text h1 {
     color: var(--very-dark-violet);
+    font-weight: 800;
+    font-size: 37px;
 }
 .main-1-text .build {
     color: var(--grayish-violet);
@@ -130,6 +139,10 @@ main{
     border: 1px #fff;
     width: 84%;
     margin-bottom: 12px;
+}
+.main-2-shorten input::placeholder {
+    font-weight: 600;
+    color: var(--grayish-violet);
 }
 .main-2-shorten button {
     padding: 10px 0 10px 10px;
