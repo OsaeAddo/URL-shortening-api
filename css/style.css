@@ -4,6 +4,7 @@
     --primary2: hsl(257, 27%, 26%);
     --secondary: hsl(0, 87%, 67%);
     --gray: hsl(0, 0%, 75%);
+    --lighter-gray: #eeede7;
     --grayish-violet: hsl(257, 7%, 63%);
     --very-dark-blue: hsl(255, 11%, 22%);
     --very-dark-violet: hsl(260, 8%, 14%);
@@ -96,6 +97,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 2.5rem;
+    width: 95%;
 }
 .main-1-text {
     display: flex;
@@ -131,6 +134,7 @@ header {
 .main-2 {
     display: flex;
     flex-direction: column;
+    background-color: var(--lighter-gray);
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -359,12 +363,11 @@ footer ul li {
     main {
         display: flex;
         flex-direction: column;
-        margin-left: 2.5rem;
-        width: 95%;
     }
     .main-1 {
         flex-direction: row-reverse;
         align-items: center;
+        padding-bottom: 5rem;
     }
     .main-1 img {
         width: 45%;
@@ -392,12 +395,18 @@ footer ul li {
 
     /* Main-2 section */
     .main-2 {
-        margin-bottom: 5rem;
+        padding-bottom: 5rem;
+        margin-bottom: 0;
+        position: relative;
     }
     .main-2-shorten {
         flex-direction: row;
         align-items: center;
         padding: 1.8rem 1rem;
+        background-image: url(../images/bg-shorten-desktop.svg);
+        position: relative;
+        top: -54px;
+
     }
     .main-2-shorten input {
         margin-bottom: 0;
@@ -407,6 +416,13 @@ footer ul li {
     .main-2-shorten button {
         width: 26%;
         margin-right: 31px;
+    }
+    .main-2-advanced h1 {
+        font-size: 50px;
+    }
+    .main-2-advanced span {
+        width: 80%;
+        margin: auto;
     }
 
     .cards {
