@@ -36,6 +36,7 @@ const takeUserInput = () => {
     const userInput = input.value 
     input.value = ""
     const url = userInput === "" ? empty() : userInput
+    console.log(url)
     return url
 }
 
