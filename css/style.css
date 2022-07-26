@@ -172,6 +172,61 @@ header {
     font-size: 18px;
     border: none;
 }
+.main-2 .short-urls-container {
+    display: none;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.short-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-bottom: 2rem;
+    padding: 14px 45px;
+}
+.short-container .original-url {
+    text-align: start;
+    color: var(--very-dark-blue);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.short-container hr {
+    border: .1px solid gray;
+    background-color: gray;
+    margin-top: 0;
+}
+.short-container .shortened {
+    color: var(--primary1);
+    font-size: 20px;
+    margin-bottom: 4px;
+    text-align: start;
+}
+.short-container .copy-btn {
+    padding: 10px 22px;
+    background-color: var(--primary1);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 25px;
+    border: 1px solid transparent;
+}
+.short-urls-container .delete-btn {
+    padding: 10px 43px;
+    background-color: red;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 23px;
+    border: 1px solid transparent;
+}
 
 .main-2-advanced {
     display: flex;
