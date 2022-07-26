@@ -40,10 +40,17 @@ const takeUserInput = () => {
     return url
 }
 
-const showUrl = res => {
+// Display functionalities
+const displayShortenedContainer = (div) => {
+    const shortUrlsContainer = document.querySelector('.short-urls-container')
+    shortUrlsContainer.style.display = "block"
+    shortUrlsContainer.prepend(div)
+}
+
+const displayUrl = res => {
     // add a function to first remove the error message
     const div = fillTemplate(res)
-    
+    displayShortenedContainer(div)
 }
 
 
