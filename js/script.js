@@ -53,9 +53,19 @@ const displayUrl = res => {
     displayShortenedContainer(div)
 }
 
-
+// put data from shortening API into an empty template
 const fillTemplate = (data) => {
-    const content = document.getElementById("")
+    const content = document.getElementById("url-template").content
+    const copyHtml = document.importNode(content, true)
+
+    const div = copyHtml.querySelector('.short-container')
+    const short = copyHtml.querySelector(".shortened")
+
+    data.result 
+        ? short.textContent = data.result.short_link
+        : short.textContent = data.result
+    
+    return div
 }
 
 
