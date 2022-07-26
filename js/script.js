@@ -30,8 +30,9 @@ const empty = () => {
     return false
 }
 
+// Input checks functionality
 const takeUserInput = () => {
-    const input = document.getElementById("") // Incomplete
+    const input = document.getElementById("url-input") // Incomplete
     const userInput = input.value 
     input.value = ""
     const url = userInput === "" ? empty() : userInput
