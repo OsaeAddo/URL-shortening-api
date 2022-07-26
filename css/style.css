@@ -400,6 +400,23 @@ footer ul li {
         width: 30%;
         font-size: 17px;
     }
+    .short-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 78%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .short-container .shortened {
+        position: relative;
+        right: -20%;
+    }
+    .shortened,
+    .original-url {
+        margin-top: 0;
+    }
 
     /* Main-2 section */
     .main-2 {
