@@ -3,10 +3,14 @@ const menu = document.querySelector('.menu-btn')
 const close = document.querySelector('.close')
 const navMenu = document.querySelector('.nav-menu')
 
+// Shorten url Form
+const shortenForm = document.querySelector('.main-2-shorten')
 
 // Url Input
 const inputUrl = document.getElementById('url-input')
 
+
+//*************** Nav functionalities   *****************
 function toggleNav() {
     navMenu.classList.toggle('show-nav-menu');
 }
@@ -16,9 +20,10 @@ function windowOnClick (event) {
         toggleNav();
     }
 }
-menu.addEventListener('click', toggleNav);
-window.addEventListener('click', windowOnClick);
 
+
+
+//****************** Url shortening functionalities  ******************
 // Error handling
 const empty = () => {
     //ToDo: Add error messages
