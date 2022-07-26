@@ -91,3 +91,11 @@ const shortenUrl = (e) => {
         )
     }
 }
+
+
+// ***************** Event listeners  *************
+shortenForm.addEventListener('submit', shortenUrl)
+
+menu.addEventListener('click', toggleNav);
+window.addEventListener('click', windowOnClick);
+
