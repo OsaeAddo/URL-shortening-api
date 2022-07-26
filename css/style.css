@@ -536,6 +536,7 @@ footer ul li {
     /* Footer section */
     .info {
         background-image: url(../images/bg-boost-desktop.svg);
+        background-size: cover;
     }
     .info .get-started {
         width: 20%;
