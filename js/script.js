@@ -70,20 +70,22 @@ const fillTemplate = (data) => {
 
 
 // Url Shortening functions
-const getUrl = (url) => {
-    fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
-        .then(res => res.json())
-        .then(data => console.log(data))
+const getUrl = async (url) => {
+    const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
+    let data = await  res.json()
+    data = data.ok ? data : false
+    console.log('Returned url data: ', data)
+    return data
 }
 
 
-const shortenUrl = (event) => {
-    event.preventDefault()
+const shortenUrl = (e) => {
+    e.preventDefault()
     const url = takeUserInput()
     if (url) {
         getUrl(url).then(
             res => {    
-                res ? showUrl(res) : invalidUrl() // handle the response returned
+                res ? displayUrl(res) : console.log("Invalid url") // handle the response returned
             }
         )
     }
