@@ -79,7 +79,7 @@ const getUrl = async (url) => {
     return data
 }
 
-
+// Shorten the url input by the user
 const shortenUrl = (e) => {
     e.preventDefault()
     const url = takeUserInput()
