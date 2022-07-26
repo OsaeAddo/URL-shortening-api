@@ -70,6 +70,7 @@ const fillTemplate = (data) => {
 
 
 // Url Shortening functions
+// Fetch the shortened url
 const getUrl = async (url) => {
     const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
     let data = await  res.json()
