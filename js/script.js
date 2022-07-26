@@ -59,11 +59,19 @@ const fillTemplate = (data) => {
     const copyHtml = document.importNode(content, true)
 
     const div = copyHtml.querySelector('.short-container')
+    const originalUrl = copyHtml.querySelector('.original-url')
     const short = copyHtml.querySelector(".shortened")
 
+
     data.result 
-        ? short.textContent = data.result.short_link
-        : short.textContent = data.result
+        ? (
+            short.textContent = data.result.short_link, 
+            originalUrl.textContent = data.result.original_link
+        )
+        : (
+            short.textContent = data.result, 
+            originalUrl.textContent = data.result.original_link
+        ) //ToDo: Update to use LocalStorage
     
     return div
 }
