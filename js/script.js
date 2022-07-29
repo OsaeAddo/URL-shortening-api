@@ -77,7 +77,38 @@ const fillTemplate = (data) => {
 }
 
 
-// Url Shortening functions
+// ---- In-Browser Storage of urls  ----
+// store Shortened urls in browser
+const storeLocally  = (res) => {
+    const originalLink = res.result.original_link
+    const shortLink = res.result.short_link
+    const bothLinks = {orgLink: originalLink, shortLink: shortLink}
+
+    let storedUrl = localStorage.getItem("bothLinks")
+    ? JSON.parse(localStorage.getItem("bothLinks"))
+    : []
+    
+    storedUrl.push(bothLinks)
+    localStorage.setItem("bothLinks", JSON.stringify(storedUrl))
+}
+
+// retrieve stored urls
+const retrieveLocalStorage = () => {
+    const bothLinks = JSON.parse(localStorage.getItem("bothLinks"))
+    if (bothLinks) {
+        bothLinks.forEach(link => {
+            const div = fillTemplate(link)
+            displayShortenedContainer(div)
+        });
+    }
+}
+
+// ---- Url Shortening functions  ----
+const fetchLoading = () => {
+    let loader = document.querySelector(".fetch-loading")
+    loader.style.display = "block"
+}
+
 // Fetch the shortened url
 const getUrl = async (url) => {
     const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
