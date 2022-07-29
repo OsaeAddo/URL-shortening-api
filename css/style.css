@@ -143,6 +143,7 @@ header {
     align-items: center;
     text-align: center;
     margin-bottom: 0;
+    position: relative;
 }
 .main-2-shorten {
     display: flex;
@@ -175,6 +176,16 @@ header {
     font-weight: 600;
     font-size: 18px;
     border: none;
+}
+.main-2 .fetch-loading {
+    display: none;
+    position: absolute;
+    top: -10%;
+    padding: 14px 20px;
+    background: var(--grayish-violet);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 600;
 }
 .main-2 .short-urls-container {
     display: none;
