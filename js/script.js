@@ -131,7 +131,7 @@ const shortenUrl = (e) => {
     }
 }
 
-
+retrieveLocalStorage()
 // ***************** Event listeners  *************
 shortenForm.addEventListener('submit', shortenUrl)
 
