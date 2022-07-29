@@ -104,14 +104,15 @@ const retrieveLocalStorage = () => {
 }
 
 // ---- Url Shortening functions  ----
-const fetchLoading = () => {
-    let loader = document.querySelector(".fetch-loading")
-    loader.style.display = "block"
-}
-
 // Fetch the shortened url
 const getUrl = async (url) => {
+    let loader = document.querySelector(".fetch-loading")
+    loader.style.display = "block"
+
     const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
+
+    loader.style.display = "none"
+
     let data = await  res.json()
     data = data.ok ? data : false
     console.log('Returned url data: ', data)
