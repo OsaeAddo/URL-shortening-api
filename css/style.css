@@ -519,6 +519,11 @@ footer ul li {
         width: 80%;
         margin: auto;
     }
+    .main-2 .fetch-loading {
+        top: -10%;
+        padding: 14px 20px;
+
+    }
 
     .cards {
         flex-direction: row;
